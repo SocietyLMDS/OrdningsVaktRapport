@@ -164,3 +164,4 @@ C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Test\obj\Debug\OrdningsVaktRapport.Test.csprojResolveAssemblyReference.cache
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Test\obj\Debug\OrdningsVaktRapport.Test.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Test\obj\Debug\OrdningsVaktRapport.Test.pdb
+C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Test\bin\Debug\OrdningsVaktRapport.Test.dll.config

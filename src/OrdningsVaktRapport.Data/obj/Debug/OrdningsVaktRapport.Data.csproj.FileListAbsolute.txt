@@ -230,3 +230,5 @@ C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Data\bin\Debug\zh-Hant\System.Spatial.resources.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Data\obj\Debug\OrdningsVaktRapport.Data.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Data\obj\Debug\OrdningsVaktRapport.Data.pdb
+C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Data\bin\Debug\OrdningsVaktRapport.Data.dll.config
+C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Data\obj\Debug\OrdningsVaktRapport.Data.csprojResolveAssemblyReference.cache
