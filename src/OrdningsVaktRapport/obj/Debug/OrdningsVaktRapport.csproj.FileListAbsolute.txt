@@ -250,7 +250,6 @@ C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\OrdningsVaktRapport.Data.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.ComponentModel.DataAnnotations.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Configuration.dll
-C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Data.DataSetExtensions.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Data.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Data.Entity.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.dll
@@ -267,7 +266,6 @@ C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Web.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Web.DynamicData.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Web.Entity.dll
-C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Web.Extensions.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Web.Helpers.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Web.Http.Cors.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Web.Http.dll
@@ -283,7 +281,6 @@ C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Web.WebPages.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Web.WebPages.Razor.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Xml.dll
-C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Xml.Linq.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\WebActivator.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\WebApiContrib.IoC.Ninject.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\WebGrease.dll

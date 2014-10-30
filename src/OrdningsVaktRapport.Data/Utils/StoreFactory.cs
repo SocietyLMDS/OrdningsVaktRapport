@@ -14,7 +14,7 @@ namespace OrdningsVaktRapport.Data.Utils
         {
             //azure http://overout.cloudapp.net/ravendb
             //localt http://localhost/ravendb
-            var ravenDbStore = new DocumentStore { Url = "http://overout.cloudapp.net/ravendb" };
+            var ravenDbStore = new DocumentStore { Url = "http://localhost/ravendb" };
             ravenDbStore.Initialize();
             return ravenDbStore;
         }
