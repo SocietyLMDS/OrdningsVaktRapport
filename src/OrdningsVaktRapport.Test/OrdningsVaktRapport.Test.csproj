@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DC03156-38C5-45D0-87CC-1156354D370F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrdningsVaktRapport.Test</RootNamespace>
+    <AssemblyName>OrdningsVaktRapport.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Machine.Specifications">
+      <HintPath>..\packages\Machine.Specifications.0.6.2\lib\net45\Machine.Specifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Machine.Specifications.Clr4">
+      <HintPath>..\packages\Machine.Specifications.0.6.2\lib\net45\Machine.Specifications.Clr4.dll</HintPath>
+    </Reference>
+    <Reference Include="Machine.Specifications.Should">
+      <HintPath>..\packages\Machine.Specifications.0.6.2\lib\net45\Machine.Specifications.Should.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompanyEntityTests\when_creating_a_company_with_a_email_that_already_exist.cs" />
+    <Compile Include="CompanyEntityTests\when_creating_a_company_with_a_name_that_already_exist.cs" />
+    <Compile Include="CompanyEntityTests\when_deleting_an_company_that_doesnt_exist.cs" />
+    <Compile Include="CompanyEntityTests\when_deleting_an_existing_company.cs" />
+    <Compile Include="CompanyEntityTests\when_deleting_a_company_that_does_not_exist.cs" />
+    <Compile Include="CompanyEntityTests\when_modifying_a_company_without_email_address.cs" />
+    <Compile Include="CompanyEntityTests\when_modifying_a_company_without_password.cs" />
+    <Compile Include="CompanyEntityTests\when_modifying_a_company_with_all_the_details.cs" />
+    <Compile Include="CompanyEntityTests\when_modifying_a_company_with_a_username_shorter_than_6_characters.cs" />
+    <Compile Include="CompanyEntityTests\when_modifying_a_new_company_without_a_username.cs" />
+    <Compile Include="CompanyEntityTests\when_modifying_a_new_company_without_a_name.cs" />
+    <Compile Include="CompanyEntityTests\when_modifying_a_new_company_with_an_invalid_email_address.cs" />
+    <Compile Include="CompanyEntityTests\when_modifying_a_new_company_with_a_password_shorter_than_6_characters.cs" />
+    <Compile Include="CompanyEntityTests\when_renewing_company_password_because_you_forgot_with_an_email_address_that_doesnt_exist.cs" />
+    <Compile Include="CompanyEntityTests\when_renewing_company_password_because_you_forgot_with_an_empty_email_address.cs" />
+    <Compile Include="CompanyEntityTests\when_renewing_company_password_because_you_forgot_with_an_invalid_email_address.cs" />
+    <Compile Include="CompanyEntityTests\when_renewing_company_password_because_you_forgot_with_a_valid_email_address.cs" />
+    <Compile Include="CompanyEntityTests\when_retreiving_a_company_that_exist_in_the_database.cs" />
+    <Compile Include="CompanyEntityTests\when_creating_a_company_without_email_address.cs" />
+    <Compile Include="CompanyEntityTests\when_creating_a_new_company_without_name.cs" />
+    <Compile Include="CompanyEntityTests\when_creating_a_new_company_with_all_the_details.cs" />
+    <Compile Include="CustomerEntityTests\when_adding_an_object_to_a_customer_without_a_name.cs" />
+    <Compile Include="CustomerEntityTests\when_adding_an_object_to_a_customer_with_all_the_details.cs" />
+    <Compile Include="CustomerEntityTests\when_adding_an_object_to_a_customer_with_a_name_that_alreday_exist.cs" />
+    <Compile Include="CustomerEntityTests\when_adding_a_need_to_customer_object_without_a_start_date_time.cs" />
+    <Compile Include="CustomerEntityTests\when_adding_a_need_to_customer_object_without_number_of_personnel_needed.cs" />
+    <Compile Include="CustomerEntityTests\when_adding_a_need_to_customer_object_with_all_details.cs" />
+    <Compile Include="CustomerEntityTests\when_deleting_all_customer_from_a_company_that_dont_have_customer.cs" />
+    <Compile Include="CustomerEntityTests\when_deleting_all_needs_fom_a_customer_object.cs" />
+    <Compile Include="CustomerEntityTests\when_deleting_all_needs_fom_a_customer_object_that_dont_have_any_needs.cs" />
+    <Compile Include="CustomerEntityTests\when_deleting_all_objects_from_a_customer.cs" />
+    <Compile Include="CustomerEntityTests\when_deleting_all_objects_from_a_customer_that_dont_have_any_objects.cs" />
+    <Compile Include="CustomerEntityTests\when_deleting_an_object_from_a_customer.cs" />
+    <Compile Include="CustomerEntityTests\when_deleting_a_need_from_a_customer_object.cs" />
+    <Compile Include="CustomerEntityTests\when_modifying_an_object_on_a_customer_without_a_name.cs" />
+    <Compile Include="CustomerEntityTests\when_modifying_an_object_on_a_customer_with_all_the_details.cs" />
+    <Compile Include="CustomerEntityTests\when_modifying_an_object_on_a_customer_with_a_name_that_already_exist.cs" />
+    <Compile Include="CustomerEntityTests\when_modifying_a_need_on_a_customer_object_without_specifying_a_start_time.cs" />
+    <Compile Include="CustomerEntityTests\when_modifying_a_need_on_a_customer_object_without_specifying_number_of_personnel_needed.cs" />
+    <Compile Include="CustomerEntityTests\when_modifying_a_need_on_a_customer_object_with_all_details.cs" />
+    <Compile Include="EmployeeEntityTests\when_creating_an_employee_without_an_email_address.cs" />
+    <Compile Include="EmployeeEntityTests\when_creating_an_employee_without_a_firstname.cs" />
+    <Compile Include="EmployeeEntityTests\when_creating_an_employee_without_a_lastname.cs" />
+    <Compile Include="EmployeeEntityTests\when_creating_an_employee_with_all_the_details.cs" />
+    <Compile Include="EmployeeEntityTests\when_creating_an_employee_with_an_email_address_that_already_exist.cs" />
+    <Compile Include="EmployeeEntityTests\when_creating_an_employee_with_an_invalid_email_address.cs" />
+    <Compile Include="EmployeeEntityTests\when_deleting_all_employees_from_a_company.cs" />
+    <Compile Include="EmployeeEntityTests\when_deleting_all_employees_from_a_company_that_dont_have_any_employees.cs" />
+    <Compile Include="EmployeeEntityTests\when_deleting_an_employee_that_does_not_exist.cs" />
+    <Compile Include="EmployeeEntityTests\when_deleting_an_existing_employee.cs" />
+    <Compile Include="EmployeeEntityTests\when_modifying_an_employee_without_an_email_address.cs" />
+    <Compile Include="EmployeeEntityTests\when_modifying_an_employee_without_a_firstname.cs" />
+    <Compile Include="EmployeeEntityTests\when_modifying_an_employee_without_a_username.cs" />
+    <Compile Include="EmployeeEntityTests\when_modifying_an_employee_with_all_the_details.cs" />
+    <Compile Include="EmployeeEntityTests\when_modifying_an_employee_with_an_invalid_email_address.cs" />
+    <Compile Include="EmployeeEntityTests\when_modifying_an_employee_with_a_password_less_than_6_characters.cs" />
+    <Compile Include="EmployeeEntityTests\when_modifying_an_employee_with_a_username_less_then_6_characters.cs" />
+    <Compile Include="EmployeeEntityTests\when_modiying_an_employee_without_a_lastname.cs" />
+    <Compile Include="EmployeeEntityTests\when_modiying_an_employee_without_a_password.cs" />
+    <Compile Include="EmployeeEntityTests\when_renewing_an_employee_password_because_you_forgot_with_an_email_that_doesnt_exist.cs" />
+    <Compile Include="EmployeeEntityTests\when_renewing_an_employee_password_because_you_forgot_with_an_empty_email_address.cs" />
+    <Compile Include="EmployeeEntityTests\when_renewing_an_employee_password_because_you_forgot_with_an_invalid_email_address.cs" />
+    <Compile Include="EmployeeEntityTests\when_renewing_an_employee_password_because_you_forgot_with_a_valid_email_address.cs" />
+    <Compile Include="EmployeeEntityTests\when_retrieving_all_employees_for_a_company_that_dont_have_any_employees.cs" />
+    <Compile Include="EmployeeEntityTests\when_retrieving_all_employees_for_a_company_that_have_employees.cs" />
+    <Compile Include="EmployeeEntityTests\when_retrieving_an_employee_that_does_not_exist_in_the database.cs" />
+    <Compile Include="EmployeeEntityTests\when_retrieving_an_employee_that_exist_in_the_database.cs" />
+    <Compile Include="CustomerEntityTests\when_creating_a_customer_without_a_name.cs" />
+    <Compile Include="CustomerEntityTests\when_creating_a_customer_with_all_the_details.cs" />
+    <Compile Include="CustomerEntityTests\when_creating_a_customer_with_a_name_that_already_exist.cs" />
+    <Compile Include="CustomerEntityTests\when_deleting_all_customer_from_a_company.cs" />
+    <Compile Include="CustomerEntityTests\when_deleting_an_existing_customer.cs" />
+    <Compile Include="CustomerEntityTests\when_deleting_a_customer_that_does_not_exist.cs" />
+    <Compile Include="CustomerEntityTests\when_modifying_a_customer_without_a_name.cs" />
+    <Compile Include="CustomerEntityTests\when_modifying_a_customer_with_all_the_details.cs" />
+    <Compile Include="CustomerEntityTests\when_modifying_a_customer_with_name_already_exist.cs" />
+    <Compile Include="CustomerEntityTests\when_retrieving_all_customer_for_a_company_that_have_no_customers.cs" />
+    <Compile Include="CustomerEntityTests\when_retrieving_all_customer_for_a_company_that_have_objects.cs" />
+    <Compile Include="CustomerEntityTests\when_retrieving_a_customer_that_does_not_exist.cs" />
+    <Compile Include="CustomerEntityTests\when_retrieving_a_customert_hat_exist.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CompanyEntityTests\when_creating_a_new_company_with_an_invalid_email_address.cs" />
+    <Compile Include="CompanyEntityTests\when_retrieving_all_companies_in_an_empty_company_database.cs" />
+    <Compile Include="CompanyEntityTests\when_retrieving_all_companies_in_an_unempty_company_database.cs" />
+    <Compile Include="CompanyEntityTests\when_retrieving_a_company_that_does_not_exist_in_the_database.cs" />
+    <Compile Include="ReportEntityTests\when_adding_an_FBS_report_with_all_the_details.cs" />
+    <Compile Include="ReportEntityTests\when_adding_an_GRIP_report_with_all_the_details.cs" />
+    <Compile Include="ReportEntityTests\when_adding_an_GRIP_report_you_chosen_true_for_jailed_but_havent_included_a_protocol.cs" />
+    <Compile Include="ReportEntityTests\when_adding_an_GRIP_report_you_chosen_true_for_protection_visitation_but_havent_included_a_reason.cs" />
+    <Compile Include="ReportEntityTests\when_adding_an_PL13_report_with_all_the_details.cs" />
+    <Compile Include="ReportEntityTests\when_adding_an_PL13_report_you_chosen_that_somebody_was_jailed_but_forgot_to_include_a_protocol.cs" />
+    <Compile Include="ReportEntityTests\when_deleting_all_reports_from_a_company_that_don%27t_have_reports.cs" />
+    <Compile Include="ReportEntityTests\when_deleting_all_reports_from_a_company_that_has_reports.cs" />
+    <Compile Include="ReportEntityTests\when_deleting_an_existing_report.cs" />
+    <Compile Include="ReportEntityTests\when_deleting_a_report_that_doesnt_exist.cs" />
+    <Compile Include="ReportEntityTests\when_modifying_an_FBS_report_with_all_the_details.cs" />
+    <Compile Include="ReportEntityTests\when_modifying_an_GRIP_report_with_all_the_details.cs" />
+    <Compile Include="ReportEntityTests\when_modifying_an_GRIP_report_you_chosen_true_for_jailed_but_havent_included_a_protocol.cs" />
+    <Compile Include="ReportEntityTests\when_modifying_an_GRIP_report_you_chosen_true_for_protection_visitation_but_havent_included_a_reason.cs" />
+    <Compile Include="ReportEntityTests\when_modifying_an_PL13_report_with_all_the_details.cs" />
+    <Compile Include="ReportEntityTests\when_modifying_an_PL13_report_you_chosen_that_somebody_was_jailed_but_forgot_to_include_a_protocol.cs" />
+    <Compile Include="ReportEntityTests\when_retrieving_all_reports_by_a_company.cs" />
+    <Compile Include="ReportEntityTests\when_retrieving_all_reports_by_a_employee.cs" />
+    <Compile Include="ReportEntityTests\when_retrieving_all_reports_for_a_customer.cs" />
+    <Compile Include="ScheduleEntityTests\when_adding_a_shift_to_a_schedule_without_endtime.cs" />
+    <Compile Include="ScheduleEntityTests\when_adding_a_shift_to_a_schedule_without_starttime.cs" />
+    <Compile Include="ScheduleEntityTests\when_adding_a_shift_to_a_schedule_with_all_the_details_needed.cs" />
+    <Compile Include="ScheduleEntityTests\when_adding_a_shift_to_a_schedule_with_a_endtime_thats_in_the_pass.cs" />
+    <Compile Include="ScheduleEntityTests\when_adding_a_shift_to_a_schedule_with_a_endtime_thats_less_than_startime.cs" />
+    <Compile Include="ScheduleEntityTests\when_adding_a_shift_to_a_schedule_with_a_starttime_thats_in_the_pass.cs" />
+    <Compile Include="ScheduleEntityTests\when_creating_a_schedule_without_a_date.cs" />
+    <Compile Include="ScheduleEntityTests\when_creating_a_schedule_with_all_the_details_needed.cs" />
+    <Compile Include="ScheduleEntityTests\when_creating_a_schedule_with_a_date_thats_in_the_pass.cs" />
+    <Compile Include="ScheduleEntityTests\when_deleteting_a_schedule_that_doesnt_exist_from_a_company.cs" />
+    <Compile Include="ScheduleEntityTests\when_deleting_all_employee_shift_from_a_schedule.cs" />
+    <Compile Include="ScheduleEntityTests\when_deleting_all_employee_shift_from_schedule_that_dont_have_any_shifts.cs" />
+    <Compile Include="ScheduleEntityTests\when_deleting_all_schedules_from_a_company.cs" />
+    <Compile Include="ScheduleEntityTests\when_deleting_all_shifts_a_from_a_schedule.cs" />
+    <Compile Include="ScheduleEntityTests\when_deleting_all_shifts_from_schedule_that_dont_have_any_shifts.cs" />
+    <Compile Include="ScheduleEntityTests\when_deleting_a_schedule_from_a_company.cs" />
+    <Compile Include="ScheduleEntityTests\when_deleting_a_shift_a_from_schedule.cs" />
+    <Compile Include="ScheduleEntityTests\when_deleting_schedules_from_company_that_dont_have_any_schedules.cs" />
+    <Compile Include="ScheduleEntityTests\when_getting_all_shift_for_an_employee.cs" />
+    <Compile Include="ScheduleEntityTests\when_getting_all_shift_for_an_employee_that_dont_have_any_shifts.cs" />
+    <Compile Include="ScheduleEntityTests\when_modifying_a_schedule_from_a_company.cs" />
+    <Compile Include="ScheduleEntityTests\when_modifying_a_shift_on_a_schedule_without_endtime.cs" />
+    <Compile Include="ScheduleEntityTests\when_modifying_a_shift_on_a_schedule_without_starttime.cs" />
+    <Compile Include="ScheduleEntityTests\when_modifying_a_shift_on_a_schedule_with_a_endtime_thats_in_the_pass.cs" />
+    <Compile Include="ScheduleEntityTests\when_modifying_a_shift_on_a_schedule_with_a_endtime_thats_less_than_starttime.cs" />
+    <Compile Include="ScheduleEntityTests\when_modifying_a_shift_on_a_schedule_with_a_startime_thats_in_the_pass.cs" />
+    <Compile Include="ScheduleEntityTests\when_modifying_a_shift_on_schedule_with_all_the_details_needed.cs" />
+    <Compile Include="ScheduleEntityTests\when_retrieving_all_schedules_for_a_company.cs" />
+    <Compile Include="ScheduleEntityTests\when_retrieving_all_schedules_for_a_customer.cs" />
+    <Compile Include="ScheduleEntityTests\when_retrieving_all_schedules_for_a_customerobject.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OrdningsVaktRapport.Data\OrdningsVaktRapport.Data.csproj">
+      <Project>{3f680846-37e7-4502-980a-521f6597c30d}</Project>
+      <Name>OrdningsVaktRapport.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
