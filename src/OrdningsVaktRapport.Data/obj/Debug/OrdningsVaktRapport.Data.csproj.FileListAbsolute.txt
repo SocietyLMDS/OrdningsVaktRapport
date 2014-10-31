@@ -232,3 +232,5 @@ C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Data\bin\Debug\ru\System.Spatial.resources.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Data\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Data\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Data\bin\Debug\SendGrid.SmtpApi.dll
+C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport.Data\bin\Debug\SendGridMail.dll
