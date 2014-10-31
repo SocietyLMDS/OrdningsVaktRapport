@@ -21,7 +21,7 @@ namespace OrdningsVaktRapport.App_Start
 
             //localt http://localhost:57649
             //azure http://overout.azurewebsites.net
-            var cors = new EnableCorsAttribute("http://localhost:57649", "*", "*");
+            var cors = new EnableCorsAttribute("http://overout.azurewebsites.net", "*", "*");
             config.EnableCors(cors);
 
             // Uncomment the following line of code to enable query support for actions with an IQueryable or IQueryable<T> return type.

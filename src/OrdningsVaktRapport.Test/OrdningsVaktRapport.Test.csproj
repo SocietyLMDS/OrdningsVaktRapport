@@ -35,36 +35,36 @@
   <ItemGroup>
     <Reference Include="Machine.Specifications">
       <HintPath>..\packages\Machine.Specifications.0.6.2\lib\net45\Machine.Specifications.dll</HintPath>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Machine.Specifications.Clr4">
       <HintPath>..\packages\Machine.Specifications.0.6.2\lib\net45\Machine.Specifications.Clr4.dll</HintPath>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Machine.Specifications.Should">
       <HintPath>..\packages\Machine.Specifications.0.6.2\lib\net45\Machine.Specifications.Should.dll</HintPath>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System">
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Core">
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions">
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp">
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Data">
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml">
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -207,7 +207,7 @@
     <ProjectReference Include="..\OrdningsVaktRapport.Data\OrdningsVaktRapport.Data.csproj">
       <Project>{3f680846-37e7-4502-980a-521f6597c30d}</Project>
       <Name>OrdningsVaktRapport.Data</Name>
-      <Private>False</Private>
+      <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
