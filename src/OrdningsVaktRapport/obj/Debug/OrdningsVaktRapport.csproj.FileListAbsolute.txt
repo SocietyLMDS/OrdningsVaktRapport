@@ -383,3 +383,6 @@ C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\obj\Debug\OrdningsVaktRapport.csprojResolveAssemblyReference.cache
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\obj\Debug\OrdningsVaktRapport.dll
 C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\obj\Debug\OrdningsVaktRapport.pdb
+C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Data.DataSetExtensions.dll
+C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Web.Extensions.dll
+C:\Users\localuser\Documents\GitHub\OrdningsVaktRapport\src\OrdningsVaktRapport\bin\System.Xml.Linq.dll
